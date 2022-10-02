@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container-1{
+        border: 1px solid red;
+        height: 700px;
+        display: flex;
+        /* flex-direction: row;
+        flex-wrap:wrap ; */
+        flex-flow: row nowrap  ;
+        /* align-items:stretch; */
+      
+    }
+    .container-1 div{
+        border: 1px solid rgb(73, 73, 73);
+        padding: 5px;
+       
+
+    }
+    .box1{
+        order: 2;
+    }
+    .box2{
+        order: 3;
+    }
+    .box3{
+        order:4 ;
+    }
+    .box4{
+        order: 1;
+    }
+
+
+</style>
+<body>
+    <div class="container-1">
+        <div class="box1">
+            <h4>birinci kutu</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos? </p>
+        </div>
+        <div class="box2">
+            <h4>ikinci kutu</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos?</p>
+        </div>
+        <div class="box3">
+            <h4>üçüncü kutu</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos?</p>
+        </div>
+        <div class="box4">
+            <h4>dördüncü  kutu</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos?</p>
+        </div>
+       
+     
+     
+        
+    </div>
+</body>
+</html>
